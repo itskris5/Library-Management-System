@@ -1,0 +1,155 @@
+.loginBox{
+	position: relative;
+	width: 30%;
+	padding: 140 10 10 10;
+    font-family: 'Exo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    margin: 0 auto;
+}
+
+.loginBox input[type=text]{
+	width: 330px;
+	height: 40px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 22px;
+	font-weight: 400;
+	padding: 4px;
+	margin-top: 10px;
+}
+
+.loginBox input[type=number]{
+	width: 330px;
+	height: 40px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 22px;
+	font-weight: 400;
+	padding: 4px;
+	margin-top: 10px;
+}
+.loginBox input[type=password]{
+	width: 330px;
+	height: 40px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 22px;
+	font-weight: 400;
+	padding: 4px;
+	margin-top: 10px;
+}
+
+.loginBox input[type=button]{
+	width: 330px;
+	height: 45px;
+	background: #fff;
+	border: 1px solid #fff;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #a18d6c;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px;
+}
+
+.loginBox input[type=submit]{
+	width: 330px;
+	height: 45px;
+	background: #fff;
+	border: 1px solid #fff;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #a18d6c;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px;
+}
+
+.loginBox > a {
+	width: 260px;
+	height: 35px;
+	background: #fff;
+	border: 1px solid #fff;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #a18d6c;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+	text-decoration: none;
+	margin-top: 10px;
+}
+
+.loginBox > a:hover{
+	opacity: 0.8;
+}
+
+.loginBox input[type=button]:hover{
+	opacity: 0.8;
+}
+
+.loginBox input[type=button]:active{
+	opacity: 0.6;
+}
+
+.loginBox input[type=submit]:hover{
+	opacity: 0.8;
+}
+
+.loginBox input[type=submit]:active{
+	opacity: 0.6;
+}
+.loginBox input[type=text]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+.loginBox input[type=number]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
+.loginBox input[type=password]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
+.loginBox input[type=button]:focus{
+	outline: none;
+}
+.loginBox input[type=submit]:focus{
+	outline: none;
+}
+
+::-webkit-input-placeholder{
+   color: rgba(255,255,255,0.8);
+}
+
+::-moz-input-placeholder{
+   color: rgba(255,255,255,0.8);
+}
+@media(min-width: 300px) and (max-width: 1300px){
+	.loginBox{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+@media(min-width: 1301px){
+	form{
+		margin-left: 30px;
+	}
+}

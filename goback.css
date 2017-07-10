@@ -1,0 +1,38 @@
+.goBack{
+    position: relative;
+	width: 30%;
+    margin: 0 auto;
+	}
+	.goBack a{
+		line-height: 40px;
+	   width: 330px;
+	  height: 40px;
+	  background: transparent;
+	  border: 1px solid rgba(255,255,255,0.6);
+	  border-radius: 2px;
+	  color: #fff;
+	  font-family: 'Exo', sans-serif;
+	   font-size: 22px;
+	  font-weight: 400;
+	  padding: 4px;
+	  margin-top: 10px;
+      display: block;
+      text-align: center;
+      text-decoration: none;
+	}
+	.goBack a:hover{
+		opacity: 0.8;
+	}
+	.goBack a:focus{
+		outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+	}
+
+    @media (min-width: 300px) and (max-width: 1300px){
+    	.goBack{
+    		margin-right: 0;
+    		margin-left: 0;
+    	}
+    	.goBack a{
+    		width: 330px;
+    	}
